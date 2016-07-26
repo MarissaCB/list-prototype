@@ -27,13 +27,17 @@ h1 {
 	border-width: 3px;
 	color: black;
 	font-size: 15px;
-	position: center;
+	float: right;
+	margin-right: 1040px;
 }
 
 input  {
 	display: inline block;
 	border-radius: 4px;
 	font-size: 15px;
+	float: right;
+	margin-right: 780px;
+	margin-top: -25px;
 }
 
 
@@ -41,7 +45,7 @@ h2 {
 	display: inline block;
 	float: right;
 	margin-right: 350px;
-	margin-top: -5px;
+	margin-top: -25px;
 }
 
 button {
@@ -51,17 +55,43 @@ button {
 	border-width: 3px;
 	color: red;
 	font-size: 15px;
-	margin-left: 800px;
-	
-	
+	float: right;
+	margin-right: 464px;	
 }
 
 .basket {
-	margin-left: 800px;
+	float: right;
+	margin-right: -300px;
+	margin-top: 25px;
 
 }
 
 ol {
 	float: right;
-	margin-right: 400px;
+	margin-right: -755px;
+	margin-top: 25px;
 }
+
+/*
+@media only screen and (max-width: 1030px) {
+    .top-navigation {
+        margin-left: 2em;
+    }
+
+}
+
+@media only screen and (max-width: 1150px) {
+    .userinfo  {
+        margin-left: 2em;
+    }
+
+    button  {
+        margin-left: 2em;
+    }
+}
+
+ @media only screen and (max-width: 940px) {
+    h2  {
+        margin-left: 2em;
+
+
