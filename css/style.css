@@ -87,6 +87,11 @@ ol {
 /*	display: none; */
 }
 
+ol li .remove-box {
+	display: inline-block;
+	margin: 0 0 0 20px;
+	padding: 0;
+}
 /*
 @media only screen and (max-width: 1030px) {
     .top-navigation {
