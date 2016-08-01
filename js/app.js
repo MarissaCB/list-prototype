@@ -1,8 +1,4 @@
 $(document).ready(function() {
-	
-	/*$('#button').on('click', function() {
-	 var value = $("#inputbox").val ()
-	 */
 
 	 $("#add_li").on("click", function() {
 	 	var value = $("#inputBox").val();
@@ -10,8 +6,16 @@ $(document).ready(function() {
 		$("ol").append("<li>" + value + " <input type='checkbox' class='remove-box'></li>");
 	 });
 
-	 $("#remove_li").click(function () {
-		$("ol").remove("<li></li>");
-	 }); 
-	
-});
+	 $("ol").on("click", "li", function() {
+		$(this).remove();
+	});
+
+ });
+	/*
+		$('input[type="checkbox"]:checked').each(function() {
+		if (jQuery(this).is(':checked')) {
+          	alert(jQuery(this).val());
+
+          }*/
+
+
